@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(99, 99, 99);
+    font-family: sans-serif;
+}
+.navigation{
+    width: auto;
+    height: 30px;
+    background-color:rgb(77,77,77);
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: greenyellow;
+}
+a:hover{
+    color: rgb(224, 255, 178);
+}
+
+
+#menu li{
+    display: inline;
+    padding: 50px;
+    margin: auto;
+    
+}
