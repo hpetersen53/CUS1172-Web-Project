@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>Course: CUS 1172</title>
-    <!--<link rel="stylesheet" href="/HTML_CSS_SASS/pages_style.css"/>-->
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="/HTML_CSS_SASS/pages_style.css"/>
+    <link rel="stylesheet" media="screen and (max-width: 1199px)" href="/HTML_CSS_SASS/pages_style_alt.css"/>
 
 
 
@@ -12,35 +13,32 @@
 <body>
 
 <div class="navigation">
-    <ul id="menu">
-        <li><a href="#profile">Profile</a> </li>
-        <li><a href="#education-experience">Education & Experience</a> </li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#hobbies-interests">Hobbies & Interests</a></li>
-    </ul>
+    
+        <button><a href="#profile">Profile</a></button><button><a href="#education-experience">Education & Experience</a></button><button><a href="#skills">Skills</a></button><button><a href="#hobbies-interests">Hobbies & Interests</a></button>
+    
 </div>
 
 <div id="profile">
     <div class="info">
-    <img class="pfp" src="clownloach.jpg" width="210px" height="140px"/> <!--add pfp-->
-    <h1>Han N. Petersen</h1>
+    <img src="clownloach.jpg" width="210px" height="140px" class="pfp"/>
+    <h1>Hannah Petersen</h1>
 
     <div class="divider"></div>
 
     <h3>About Me</h3>
-        <p>Senior</p><p>Computer Science</p>
+        <p class="p1">Senior | Computer Science</p>
 
     </div>
 </div>
 <div id="education-experience">
     <div class="info">
-        <h3>Education</h3>
+        <h1>Education</h1>
         <p class="location">St. John's University</p><p class="date">August 2021-May 2025</p>
         <div class="divider"></div>
-        <h3>Work Experience</h3>
-        <p class="location">Under Armour, Inc.</p><p class="date">September 2022-Current</p>
+        <h1>Work Experience</h1>
+        <p class="location">Under Armour, Inc.</p><p class="date">September 2022-Present</p>
         <div class="divider"></div>
-        <h3 id="skills">Skills</h3>
+        <h1 id="skills">Skills</h1>
         <ul>
             <li>Java</li>
             <li>HTML</li>
@@ -50,6 +48,7 @@
 </div>
 <div id="hobbies-interests">
     <div class="info">
+        <h1>Interests</h1>
         <h3>Hobbies</h3>
         <ul>
             <li>Digital Art</li>
@@ -59,11 +58,13 @@
             <li>Video Games</li>
         </ul>
 
-        <img src="https://blog.hannainst.com/hubfs/aquascaping-305878-edited.jpg" width="50%" height="50%">
+        <img class="hobby-pic" src="https://blog.hannainst.com/hubfs/aquascaping-305878-edited.jpg" width="50%" height="50%">
+
+        <div class="divider"></div>
 
         <h3>Favorite Media</h3>
         <table><tr><th>Movie</th><th>Show</th><th>Song</th><th>Game</th><th>Website</th></tr>
-            <tr><td>Guardians of the Galaxy</td><td>Breaking Bad</td><td>Song</td><td>Project Zomboid</td><td><a href="https://www1.flightrising.com/" target="_blank">Flight Rising</a></td></tr>
+            <tr><td>Guardians of the Galaxy</td><td>Breaking Bad</td><td>Corsicana</td><td>Project Zomboid</td><td><a href="https://www1.flightrising.com/" target="_blank">Flight Rising</a></td></tr>
         </table>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/9zMvhC_zVn0?si=4Hq4LTDnDbnZwu9_&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -76,7 +77,7 @@
 
 <div id="projects">
     <div class="info">
-        <h3>Projects</h3>
+        <h1>Projects</h1>
         <ul>
             <li>Profile Page (This Project): Create a simple profile page that includes information about your education, experience, skills, and interests to demonstrate an understanding of basic HTML tags.</li>
             <li>TBA</li>
