@@ -131,14 +131,7 @@ ul{
     
 }
 
-table{
-    color: white;
-    width: 85%;
-    margin: 10px auto;
-    padding: 10px;
-    background-color: rgb(75,75,75);
-    border: 1px solid black;
-}
+
 
 iframe{
     margin: auto;
