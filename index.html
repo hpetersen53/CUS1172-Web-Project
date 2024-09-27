@@ -2,95 +2,151 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <title>Course: CUS 1172</title>
-    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="/HTML_CSS_SASS/pages_style.css"/>
-    <link rel="stylesheet" media="screen and (max-width: 1199px)" href="/HTML_CSS_SASS/pages_style_alt.css"/>
+    <link rel="stylesheet" href="HTML_CSS_SASS/bootstrap.min.css">
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="HTML_CSS_SASS/pages_style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1199px)" href="HTML_CSS_SASS/pages_style_alt.css" />
 
 
 
 </head>
-<body>
 
-<div class="navigation">
-    
-        <button><a href="#profile">Profile</a></button><button><a href="#education-experience">Education & Experience</a></button><button><a href="#skills">Skills</a></button><button><a href="#hobbies-interests">Hobbies & Interests</a></button>
-    
-</div>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<div class="container">
+    <div class="row">
+        <nav class="navbar navbar-expand-sm fixed-top">
 
-<div id="profile">
-    <div class="info">
-    <img src="clownloach.jpg" width="210px" height="140px" class="pfp"/>
-    <h1>Hannah Petersen</h1>
+            <button class="btn"><a class="nav-link" href="#profile">Profile</a></button><button class="btn"><a class="nav-link" href="#education-experience">Education &
+                    Experience</a></button><button class="btn"><a class="nav-link" href="#skills">Skills</a></button><button class="btn"><a class="nav-link" 
+                    href="#hobbies-interests">Hobbies & Interests</a></button>
 
-    <div class="divider"></div>
-
-    <h3>About Me</h3>
-        <p class="p1">Senior | Computer Science</p>
-
+        </nav>
     </div>
 </div>
-<div id="education-experience">
-    <div class="info">
-        <h1>Education</h1>
-        <p class="location">St. John's University</p><p class="date">August 2021-May 2025</p>
-        <div class="divider"></div>
-        <h1>Work Experience</h1>
-        <p class="location">Under Armour, Inc.</p><p class="date">September 2022-Present</p>
-        <div class="divider"></div>
-        <h1 id="skills">Skills</h1>
-        <ul>
-            <li>Java</li>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div id="profile">
+                <div class="info">
+                    <img src="clownloach.jpg" width="210px" height="140px" class="pfp img-thumbnail" />
+                    <h1>Hannah Petersen</h1>
+
+                    <div class="divider"></div>
+
+                    <h3>About Me</h3>
+                    <p class="p1">Senior | Computer Science</p>
+                    
+                    <div class="spinner-border text-success"></div><div class="spinner-border text-success"></div><div class="spinner-border text-success"></div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="education-experience">
+                <div class="info">
+                    <h1>Education</h1>
+                    <p class="location">St. John's University</p>
+                    <p class="date">August 2021-May 2025</p>
+                    <div class="divider"></div>
+                    <h1>Work Experience</h1>
+                    <p class="location">Under Armour, Inc.</p>
+                    <p class="date">September 2022-Present</p>
+                    <div class="divider"></div>
+                    <h1 id="skills">Skills</h1>
+                    <ul class="">
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-<div id="hobbies-interests">
-    <div class="info">
-        <h1>Interests</h1>
-        <h3>Hobbies</h3>
-        <ul>
-            <li>Digital Art</li>
-            <li>Fishkeeping</li>
-            <li>Aquascaping</li>
-            <li>Tennis</li>
-            <li>Video Games</li>
-        </ul>
+    <div class="row">
+        <div id="hobbies-interests">
+            <div class="info">
+                <h1>Interests</h1>
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Digital Art</li>
+                    <li>Fishkeeping</li>
+                    <li>Aquascaping</li>
+                    <li>Tennis</li>
+                    <li>Video Games</li>
+                </ul>
 
-        <img class="hobby-pic" src="https://blog.hannainst.com/hubfs/aquascaping-305878-edited.jpg" width="50%" height="50%">
-
-        <div class="divider"></div>
-
-        <h3>Favorite Media</h3>
-        <table><tr><th>Movie</th><th>Show</th><th>Song</th><th>Game</th><th>Website</th></tr>
-            <tr><td>Guardians of the Galaxy</td><td>Breaking Bad</td><td>Corsicana</td><td>Project Zomboid</td><td><a href="https://www1.flightrising.com/" target="_blank">Flight Rising</a></td></tr>
-        </table>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/9zMvhC_zVn0?si=4Hq4LTDnDbnZwu9_&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        
-        <iframe src="https://store.steampowered.com/widget/108600/34371/" frameborder="0" width="646" height="190"></iframe>
+                <style>
+                    table {
+                        color: white;
+                        width: 85%;
+                        margin: 10px auto;
+                        padding: 10px;
+                        background-color: rgb(75, 75, 75);
+                        border: 1px solid black;
+                    }
+                </style>
 
 
+                
+                <img class="hobby-pic" src="https://blog.hannainst.com/hubfs/aquascaping-305878-edited.jpg" width="50%"
+                    height="50%">
+
+                <div class="divider"></div>
+
+                <h3>Favorite Media</h3>
+                <table class="table-striped table-bordered">
+                    <tr>
+                        <th>Movie</th>
+                        <th>Show</th>
+                        <th>Song</th>
+                        <th>Game</th>
+                        <th>Website</th>
+                    </tr>
+                    <tr>
+                        <td>Guardians of the Galaxy</td>
+                        <td>Breaking Bad</td>
+                        <td>Corsicana</td>
+                        <td>Project Zomboid</td>
+                        <td><a href="https://www1.flightrising.com/" target="_blank">Flight Rising</a></td>
+                    </tr>
+                </table>
+
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/9zMvhC_zVn0?si=4Hq4LTDnDbnZwu9_&amp;controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <iframe src="https://store.steampowered.com/widget/108600/34371/" frameborder="0" width="646"
+                    height="190"></iframe>
+
+
+            </div>
+        </div>
     </div>
-</div>
+    <div class="row">
+        <div id="projects">
+            <div class="info">
+                <h1>Projects</h1>
+                <ul>
+                    <li>Profile Page (This Project): Create a simple profile page that includes information about your
+                        education, experience, skills, and interests to demonstrate an understanding of basic HTML tags.
+                    </li>
+                    <li>TBA</li>
+                    <li>TBA</li>
+                </ul>
 
-<div id="projects">
-    <div class="info">
-        <h1>Projects</h1>
-        <ul>
-            <li>Profile Page (This Project): Create a simple profile page that includes information about your education, experience, skills, and interests to demonstrate an understanding of basic HTML tags.</li>
-            <li>TBA</li>
-            <li>TBA</li>
-        </ul>
+
+            </div>
 
 
+        </div>
     </div>
 
 
-</div>
-    
 
-    
 </body>
+
 </html>

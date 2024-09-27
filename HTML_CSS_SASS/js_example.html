@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            let current_status = 1;
+            function hello(msg){
+                if(currrent_status == 1){
+                    document.querySelector("#status").innerHTML = "Goodbye!"
+                    current_status = 1 - current_status
+                } else {
+                    document.querySelector("#status").innerHTML = "Welcome!"
+                    current_status = 1 - current_status
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id = "status">Welcome!</h1>
+        <button onclick="hello('message')"> Click here!</button>
+    </body>
+</html>
